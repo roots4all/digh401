@@ -1,0 +1,12 @@
+<?php
+$books = array();
+$books[0] = 'Gone With the Wind';
+$books[1] = 'Tikki Tikki Tembo';
+array_push($books, 'Gone With the Wind');
+echo $books[1].'<br />';
+$books[2] = 'Dune';
+array_push($books, 'Dune');
+echo array_shift($books);
+echo array_shift($books);
+echo array_pop($books);
+?>
